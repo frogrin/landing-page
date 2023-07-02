@@ -66,7 +66,7 @@ header a {
     margin: 12px 0;
 }
 
-.hero button {
+button {
     background-color: #3882F6;
     border-radius: 8px;
     color: #F9FAF8;
@@ -104,9 +104,9 @@ header a {
 figure {
     max-width: 70%;
     margin: 0 auto;
+    color: #1F2937;
 }
 .three blockquote {
-    color: #1F2937;
     font-size: 36px;
     font-weight: 100;
     font-style: italic;
@@ -115,4 +115,26 @@ figure {
 .three figcaption {
     text-align: right;
     font-weight: 700;
+}
+
+/* Call to action */
+.four {
+    max-width: 70%;
+    margin: 52px auto;
+    background-color: #3882F6;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 36px 48px;
+}
+
+.four h3 {
+    color:#F9FAF8;
+    margin: 0;
+}
+
+.four p {
+    color:#E5E7EB;
+    margin: 0;
 }
