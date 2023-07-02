@@ -73,3 +73,24 @@ header a {
     font-weight: 700;
     padding: 4px 24px;
 }
+
+/* Cards */
+.two { 
+    text-align: center;
+    padding: 32px;
+    color: #1F2937;
+}
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+}
+.card {
+    max-width: 150px;
+}
+
+.card img {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+}
