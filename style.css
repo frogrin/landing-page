@@ -138,3 +138,13 @@ figure {
     color:#E5E7EB;
     margin: 0;
 }
+
+/* Footer */
+footer {
+    color: #E5E7EB;
+    background-color: #1F2937;
+    padding: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
